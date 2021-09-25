@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:montrav1/src/config/routes/app_routes.dart';
+import 'package:montrav1/src/config/themes/app_theme.dart';
 import 'package:montrav1/src/core/utils/constants.dart';
 
 void main() {
@@ -11,9 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: appName,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: AppTheme.light,
+      onGenerateRoute: AppRoutes.onGenerateRoutes,
       home: const SizedBox(),
     );
   }
