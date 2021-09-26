@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter/material.dart';
-
 // ignore: avoid_classes_with_only_static_members
 class AppTheme {
   // TODO match our Theme data with figma
