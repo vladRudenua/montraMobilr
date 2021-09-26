@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:montrav1/src/config/assets/app_asstes.dart';
 
 class OnboadringeView extends StatelessWidget {
   const OnboadringeView({Key? key}) : super(key: key);
@@ -19,7 +20,9 @@ class MainBodyLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [Text(AppLocalizations.of(context)!.helloWorld)],
+      children: [
+        Text(AppLocalizations.of(context).helloWorld),
+      ],
     );
   }
 }
