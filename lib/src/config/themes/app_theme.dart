@@ -10,7 +10,7 @@ class AppTheme {
         color: Colors.white,
       ),
       scaffoldBackgroundColor: Colors.white,
-      primaryColor: Colors.black,
+      primaryColor: const Color.fromRGBO(38, 38, 38,1),
       accentColor: Colors.black,
       splashColor: Colors.transparent,
     );
