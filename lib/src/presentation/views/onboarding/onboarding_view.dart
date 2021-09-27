@@ -21,7 +21,7 @@ class MainBodyLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text(AppLocalizations.of(context).helloWorld),
+        Text(AppLocalizations.of(context).gainTotal),
       ],
     );
   }

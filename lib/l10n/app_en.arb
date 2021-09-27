@@ -2,5 +2,13 @@
   "helloWorld": "Hello World!",
   "@helloWorld": {
     "description": "The conventional newborn programmer greeting"
+  },
+  "gainTotal": "Gain total control of your money",
+  "@gainTotal": {
+    "description": "gain total tekst which we can see in onboarding first screen"
+  },
+  "gainTotalSubText": "Track your transaction easily,with categories and financial report",
+  "@gainTotalSubText": {
+    "description": "Sub text for gain total Text"
   }
 }
